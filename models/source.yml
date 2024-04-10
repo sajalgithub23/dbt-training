@@ -1,0 +1,10 @@
+verion: 1
+
+sources:
+  - name: novo
+    description: This is a connection with Snowflake
+    database: novo_raw
+    schema: novo_io
+    tables:
+      - name: customers
+      - name: orders
